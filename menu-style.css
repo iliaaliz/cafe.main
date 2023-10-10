@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+img {
+    width: 100%;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    z-index: 1;
+}
+
+header .logo a {
+    font-size: 30px;
+    color: white;
+    padding: 15px 30px;
+
+}
+
+header .logo a span {
+    color: orange;
+
+
+
+
+}
+
+header nav ul {
+    display: flex;
+
+
+}
+
+header nav ul li a {
+    margin: 5px 20px;
+    font-size: 18px;
+    color: white;
+    padding: 10px 10px;
+
+
+
+}
+
+
+header nav ul li a:hover {
+    border-bottom: 2px solid white;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+.menu {
+    background-color: #333333;
+    width: 100%;
+}
+
+.menu .menu-header {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-header h3 {
+    color: orange;
+    padding: 10px 30px;
+}
+
+.menu-header h4 {
+    color: orange;
+    padding: 10px 20px;
+}
+
+.menu-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #404040;
+    padding: 50px 0;
+    flex-wrap: wrap;
+}
+
+.menu-box .card {
+    width: 280px;
+    margin: 20px;
+
+}
+
+.menu-box .card-image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.menu-box .card-image img:hover {
+    transform: scale(1.1);
+    transition: transform .4s ease-in-out;
+
+}
+
+.menu-box .card-body {
+    padding: 20px;
+    color: white;
+    border: 3px solid #3b3b3b;
+
+}
+
+.menu-box .card-body h3 {
+    padding: 10px 0;
+
+}
+
+.menu-box .card-body i {
+    color: orange;
+    position: relative;
+    bottom: 5px;
+
+
+}

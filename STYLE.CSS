@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: sepahbod;
+    src: url("FONT/Sepahbod-Fontjo.com/Sepahbod.otf");
+}
+
+sepahbod-font {
+    font-family: sepahbod;
+}
+
+p {
+    font-size: 20px;
+
+
+}
+
+h1 {
+
+
+
+    text-align: center;
+    font-size: 80px;
+
+
+}
+
+
+.home .home-cont {
+
+    padding: 50px 0px;
+
+}
+
+.home .home-cont .title-home {
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.home .home-cont .home-datas {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.home .home-cont .home-datas .home-content-wq {
+    width: calc(14% - 15px);
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 10px;
+    margin-left: 40px;
+    border-radius: 25px;
+    margin-top: 20px;
+
+}
+
+.home .home-cont .home-datas .home-content-wq img a {
+
+    color: rgb(0, 0, 0);
+
+
+
+}
+
+.home .home-cont .home-datas .home-content-wq img {
+    width: 80%;
+
+
+
+}
